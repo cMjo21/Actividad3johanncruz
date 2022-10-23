@@ -1,0 +1,473 @@
+
+
+:root {
+
+--SOLIDBLUE: #C8D7E0;
+--LINEARBLUE: #6A98C1;
+--JCMORANGE: #F48707;
+--TEXTWHITE: #FFFFFF;
+--SOFTBLUE: #E2F0FF;
+--DARKBLUE: #002743;
+--BLACJCM:  #060B0F;
+
+}
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+    
+    HTML{
+    
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+    
+    }
+    
+
+.navbar{
+
+min-width: 320px;
+height: 74px;
+margin: 0 auto;
+background-color: var(--SOLIDBLUE);
+
+}
+
+.navbar P {
+
+color:  #899FB2;
+font-size: 1.7rem;
+font-family: 'Baloo Chettan 2', cursive;
+
+font-weight: bold;
+
+}
+
+main{
+
+width: 100%; 
+height: auto;
+
+}
+
+.main-inicial-container{
+
+
+width: 100%;
+min-width: 320px;
+height: 878px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+background: linear-gradient(0.71deg, #6A98C1 6.89%, rgba(83, 127, 167, 0) 94.57%);
+
+}
+
+
+.main-inicial-container .backgroundIMG{
+
+    width: 208px;
+    height: 192px;
+    margin: 0 auto;
+    background-image: url("../assets/jcm.svg" );
+    margin-bottom: 40px;
+    top: 260px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.main-inicial-container .button-menu{
+
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+
+.button-menu .btn1{
+
+    margin-top: 58px;
+    width: 208px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: var(--JCMORANGE);
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 50%);
+    border-style: none;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    
+}
+
+.button-menu .btn2{
+
+    margin-top: 58px;
+    width: 208px;
+    height: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: var(--JCMORANGE);
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 50%);
+    border-style: none;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+
+}
+
+.button-menu .btn3{
+
+    margin-top: 58px;
+    width: 208px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: var(--JCMORANGE);
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 50%);
+    border-style: none;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+}
+
+
+.Form-register-container{
+
+
+   
+    min-width: 320px;
+    height: 1025px;
+    background-color: var(--SOFTBLUE);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.Form-register-container .BackgraundRG{
+    width: 208px;
+    height: 192px;
+    margin: 0 auto;
+    background-image: url("../assets/LOGRG.png" );
+    margin-bottom: 40px;
+    top: 260px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.Form-register-container .form-register{
+    
+    width: 245px;
+    height: 489px;
+    background: #FCFAFA;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 60px;
+
+} 
+.Form-register-container .date-age-container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.date-age-container .col1{
+
+    width: 50px;
+    height: 27px;
+}
+
+.date-age-container .col2{
+
+    margin-left: 10px;
+    width: 100px;
+    height: 27px;
+}
+
+
+#box1{
+  
+    width: 180px;
+    height: 27px;
+    margin-left: 30px ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  
+  
+
+}
+
+#title1{
+
+    margin-left: 30px ;
+
+}
+
+
+#box2{
+  
+    width: 180px;
+    height: 27px;
+    margin-left: 30px ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+ 
+}
+
+#title2{
+
+    margin-left: 30px ;
+
+}
+
+
+#box3{
+  
+    width: 180px;
+    height: 27px;
+    margin-left: 30px ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+ 
+}
+
+#title3{
+
+    margin-left: 30px ;
+
+}
+
+#box4{
+  
+    width: 180px;
+    height: 27px;
+    margin-left: 30px ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+ 
+}
+
+#title4{
+
+    margin-left: 30px ;
+
+}
+
+#box5{
+  
+    width: 180px;
+    height: 27px;
+    margin-left: 30px ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+ 
+}
+
+#title5{
+    margin-top: 30px;
+    margin-left: 30px ;
+
+}
+
+
+#box6{
+  
+    width: 180px;
+    height: 27px;
+    margin-left: 30px ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+ 
+}
+
+#title6{
+
+    margin-left: 30px ;
+
+}
+
+.button-register{
+
+    width: 208px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: var(--JCMORANGE);
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 50%);
+    border-style: none;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    margin-top: 80px;
+  
+  }
+
+  .button-register-container{
+
+   
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+  }
+
+ .logo-register-container{
+
+    min-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+ }
+
+  .logo-register{
+     width: 213px;
+    height: 213px;
+    position: absolute;
+     /*left: calc(55% - 170px)*/
+    left: calc(70% - 172px);
+    background-image: url("../assets/LOGRG.png");
+    margin-top: 40px;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     
+  }
+
+  .login-container{
+    min-width: 320px;
+    height: 800px;
+    background-color: var(--DARKBLUE);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+   .backgroundLogin{
+  
+    width: 174px;
+    height: 165px;
+    margin: 0 auto;
+    background-image: url("../assets/JCMLOGOLOGIN.svg" );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 10px;
+  }
+
+ .login-container .form-Login{
+    width: 245px;
+    height: 489px;
+    background: #FCFAFA;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+  }
+ .boxcheck{
+
+    margin-left: 20px ;
+ }
+
+ .singinbutton{
+     margin-top: 58px;
+    width: 208px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: var(--JCMORANGE);
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 50%);
+    border-style: none;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    margin-left: 20px
+}
+.sectionnew{
+
+margin-top: 20px;
+cursor: pointer;
+
+
+}
+
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: black;   
+    justify-content: space-between;
+    min-width: 320px;
+}
+.container-footer{
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-content: center;
+
+}
+.colfb{
+     margin-top: 4px;
+    width: 68px ;
+    height: 68px;
+    background-image: url(../assets/FB.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.colJCM {
+    margin-top: 4px;
+    width: 68px ;
+    height: 68px;
+    background-image: url(../assets/JCMFOOTER.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.colIG{
+    
+    margin-top: 4px;
+    width: 68px ;
+    height: 68px;
+    background-image: url(../assets/IG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+  
+
+    
+
+
+
+
+  

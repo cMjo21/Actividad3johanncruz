@@ -1,0 +1,75 @@
+
+
+body{
+
+background-image: url("../assets/imagenfondo.jpg");
+  
+}
+
+
+
+.main-inicial-container{
+    
+    display: flex;
+    flex-flow: row;
+    width: 930px;
+    margin: 0 auto;
+    align-items: center;
+    height: 400px;
+
+}
+
+.Form-register-container{
+
+    display: flex;
+    flex-flow: row;
+    width: 930px;
+    margin: 0 auto;
+    align-items: center;
+    height: 650px;
+
+
+  
+
+}
+
+
+.BackgraundRG{
+  
+
+    order: 3;
+}
+
+.form{
+
+ 
+    order: 1;
+    
+  
+} 
+
+.button-register-container{
+
+ 
+    order: 2;
+
+
+}
+
+
+
+
+
+.login-container{
+
+    display: flex;
+    flex-flow: row;
+    width: 930px;
+    margin: 0 auto;
+    align-items: center;
+    height:   650px;
+
+
+
+
+}

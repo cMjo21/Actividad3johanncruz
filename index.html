@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css"media="(min-width: 930px)">
+
+
+     <!-- foonts -->
+
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600&family=DM+Sans:ital,wght@0,700;1,400;1,500&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+
+    <title>JCMACT3</title>
+</head>
+<body>
+
+    <header>
+    <nav class="navbar" >             
+            <img src="./assets/Logoini.svg" class="d-inline-block align-top" alt=""><p>JOHANN ARLEY CRUZ MENDEZ</p>
+                          
+    </nav>
+
+  </header>
+
+  <main>
+
+   <section class="main-inicial-container" id="inicio">
+    <div class="backgroundIMG">
+
+    </div>
+    <div class="button-menu">
+
+       <a href="#inicio"><button   type="button" class="btn1" > INICIO</button></a>
+       <a href="#registro"><button   type="button" class="btn2" > REGISTRO DE USUARIOS</button></a>
+       <a href="#login"><button   type="button" class="btn3" >LOGIN</button></a>
+
+        
+      </div>
+   </section>
+
+   
+    <Section class="Form-register-container" id="registro">
+
+     <div class="BackgraundRG">
+
+     </div> 
+     <form class="form-register"> 
+      <div class="form">
+       
+       <label id="title1" for="validationCustom01">Primer Nombre</label>
+       <input  id="box1"type="text" class="form-control" id="validationCustom01"  required>
+       <label id="title2" for="validationCustom01">Segundo Nombre</label>
+       <input  id="box2"type="text" class="form-control" id="validationCustom01" required>
+       <label  id="title3" for="validationCustom01">Primer Apellido</label>
+       <input  id="box3"type="text" class="form-control" id="validationCustom01"  required>
+       <label id="title4" for="validationCustom01">Segundo Apellido</label>
+       <input  id="box4"type="text" class="form-control" id="validationCustom01"  required>
+      </div>
+      <div class="date-age-container">
+        <div class="row">
+          <div class="col1"><label for="validationCustom01">Edad</label>
+            <input type="number" class="form-control" id="validationCustom01"  required></div>
+          <div class="col2"><label for="validationCustom01">Fecha de macimieto</label>
+            <input type="date" class="form-control" id="validationCustom01"  required></div>
+        </div>                            
+      </div>
+         <label id="title5" for="validationCustom01">Lugar de residencia</label>
+          <input  id="box5"type="text" class="form-control" id="validationCustom01" required>
+
+          <label id="title6" for="validationCustom01">Correo electronico</label>
+       <input  id="box6"type="text" class="form-control" id="validationCustom01" required>
+              
+    </form>
+
+<div class="button-register-container">
+     
+  <button class="button-register"  type="button" class="btn1">Registrarse</button>
+</div>
+               
+     
+            
+   
+    </section>
+
+    <section class="login-container" id="login">
+
+      <div class="backgroundLogin">
+
+      </div>
+
+      <form class="form-Login"> 
+       
+        <div class="form-group">
+          <label id="title1" for="exampleDropdownFormEmail1">Email address</label>
+          <input id="box1"  type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+        </div>
+
+        <div class="form-group">
+          <label id="title1" for="exampleDropdownFormPassword1">Password</label>
+          <input id="box1"  type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+        </div>
+
+
+        <div class="form-group">
+          <div class="form-check">
+            <input class="boxcheck" type="checkbox" class="form-check-input" id="dropdownCheck">
+            <label class="form-check-label" for="dropdownCheck">
+              Remember me
+            </label>
+          </div>
+        </div>
+        <button class="singinbutton"type="submit">Sign in</button>
+
+        
+      <div  class="sectionnew"></div>
+      <a class="dropdown-item" href="#">New around here? Sign up</a>
+     <a class="dropdown-item" href="#">Forgot password?</a>
+    </div>
+
+      </form>
+   
+    </section>
+
+ </main>
+ <footer>
+
+  
+  <div  class="container-footer">
+
+    <div class="colJCM" ></div>
+    <div class="colfb" ></div>
+    <div class="colIG" ></div>
+
+</div>
+   
+    
+ </footer>
+ 
+
+
+
+
+
+
+<!-- JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>  
+    
+</body> 
+
+</html>
